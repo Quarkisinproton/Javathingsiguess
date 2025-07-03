@@ -11,11 +11,11 @@ public class LinkedList {
             switch (num) {
                 case 1 -> {
                     Node Current = First;
-                    while(Current!=null){
+                    while(Current.next!=null){
                         Current = Current.next;
                     }
                     System.out.println("Enter Data to Linked List");
-                    Current= new Node(sc.nextInt());
+                    Current.next= new Node(sc.nextInt());
                 } case 2 -> {
                     System.out.println("Showing Data in Linked List");
                     Node Read = First;
