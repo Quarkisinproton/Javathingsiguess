@@ -8,6 +8,7 @@ public class LinkedList {
         System.out.println("LinkedList:\n1.Add data at End \n2.View list \n3.Exit");
         int num = sc.nextInt();
         while(num!=3) {
+            System.out.println("LinkedList:\n1.Add data at End \n2.View list \n3.Exit");
             switch (num) {
                 case 1 -> {
                     Node Current = First;
